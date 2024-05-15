@@ -1,28 +1,6 @@
-# Documentação do Projeto: "Desafio Individual: Correlação e Regressão Simples/Multivariada"
+# 1ª Parte: Análise de Dados Imobiliários
 
-## Introdução
-Este projeto aborda análises de correlação e regressão simples/multivariada com base em um conjunto de dados imobiliários. O objetivo é compreender as relações entre diferentes variáveis e o preço das casas em um determinado mercado.
-
-### Bibliotecas Utilizadas
-- Pandas: Para manipulação de dados tabulares.
-- Numpy: Para operações numéricas.
-- Seaborn e Matplotlib: Para visualização de dados.
-- Statsmodels e Scipy.stats: Para cálculos estatísticos.
-
-### Preparação dos Dados
-Inicialmente, importamos o conjunto de dados que contém informações sobre as casas, como preço, número de quartos, área total, entre outras. Realizamos uma análise inicial dos dados, verificando informações gerais e a presença de duplicatas. Também fizemos algumas transformações nos dados, como converter a variável de data para o tipo correto e transformar a variável categórica 'waterfront' em binária.# Desafio Individual: Correlação e Regressão Simples/Multivariada
-
-### Análise de Correlação
-
-Na primeira parte da análise, calculamos a matriz de correlação entre as variáveis numéricas do conjunto de dados. Isso nos permitiu entender as relações lineares entre as diferentes características das casas. Em seguida, focamos na correlação entre o preço das casas e o número de quartos, considerando também casas com uma área total superior a 2000 pés quadrados.
-
-### Regressão Simples e Multivariada
-
-Para investigar a relação entre o preço das casas e outras variáveis, realizamos análises específicas. Primeiramente, exploramos se há correlação entre o preço e a área total da casa, considerando apenas casas com pelo menos dois banheiros. Em seguida, investigamos como a quantidade de banheiros influencia na correlação entre a área total da casa e o preço. Isso foi feito categorizando o número de banheiros e calculando a correlação para cada categoria.
-
-## 1ª Parte: Preparação dos Dados
-
-### Importação e Análise Inicial dos Dados
+## Importação e Análise Inicial dos Dados
 O conjunto de dados é importado a partir de um arquivo CSV. São realizadas as seguintes etapas de preparação inicial:
 - Verificação das informações gerais dos dados.
 - Identificação e remoção de duplicatas.
