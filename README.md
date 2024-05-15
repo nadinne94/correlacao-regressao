@@ -9,3 +9,5 @@ Este projeto aborda análises de correlação e regressão simples/multivariada 
 - Seaborn e Matplotlib: Para visualização de dados.
 - Statsmodels e Scipy.stats: Para cálculos estatísticos.
 
+## [Parte I - Dados Imobilários](house_price.md)
+## [Parte II - Dados Automobilísticos](car_price.md)
